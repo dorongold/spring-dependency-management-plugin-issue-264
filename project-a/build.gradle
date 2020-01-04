@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id "io.spring.dependency-management" version "1.0.8.RELEASE"
+}
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    compile 'com.dependency.example:project-b:1.0'
+    compile 'com.dependency.example:project-c:1.0'
+}
